@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var string = '140224199902090652';
+        var a = string.replace('0652', '****');
+        var b = a.slice(6, 14);
+        var str = '<b>' + b + '</b>';
+        var c = a.replace(b, str);
+        document.write(c);
+    </script>
+</body>
+
+</html>
